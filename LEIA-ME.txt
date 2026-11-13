@@ -1,0 +1,15 @@
+THAIS GALLINA · SITE — COMO PUBLICAR
+
+1. Envie TODO o conteúdo desta pasta para a raiz da sua hospedagem
+   (ex.: a pasta public_html na Hostinger, Locaweb ou KingHost).
+   Sem hospedagem? Arraste a pasta inteira em https://app.netlify.com/drop
+   e você recebe um endereço na hora.
+2. O site abre pelo arquivo index.html.
+
+IMPORTANTE
+- O site precisa estar hospedado. Abrir o index.html com duplo clique no
+  computador mostra a página em branco.
+- Precisa de internet: React e Babel são carregados de unpkg.com.
+- Agendamento: o formulário abre o WhatsApp (51) 99259-9231 com a mensagem
+  pronta (nome, telefone, data e horário). Nenhum dado fica guardado no site.
+- Para trocar uma foto, substitua o arquivo em assets/photos mantendo o mesmo nome.

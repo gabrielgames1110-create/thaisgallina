@@ -1,0 +1,80 @@
+/* Thais Gallina · Consultório Odontológico — color tokens.
+   Teal and gold are sampled from the logo (assets/logo/). The logo teal is too
+   light for white text (2.5:1), so actions use a deeper step of the same hue.
+   Components consume the semantic aliases only. */
+:root {
+  /* Verde-água — base */
+  --teal-brand: #4EB2A6;   /* Verde-água da logo — fundos de marca e formas grandes */
+  --teal-focus: #2F8F82;   /* Foco (3.9:1 no branco) */
+  --teal-action: #287F74;  /* Ação — botões, links, faixas com texto (4.8:1 com branco) */
+  --teal-hover: #1F6B61;   /* Hover */
+  --teal-active: #1B6359;  /* Ativo / selecionado */
+  --teal-ink: #123F3A;     /* Tinta — títulos, navegação, selos escuros */
+  --teal-soft: #E3F3F0;    /* Verde-água suave */
+  --teal-subtle: #F2FAF8;  /* Verde-água muito claro */
+
+  /* Dourado — base */
+  --gold-brand: #E4BE72;   /* Dourado da logo — decorativo (1.8:1 no branco) */
+  --gold-light: #EED7A6;   /* Ícones sobre a faixa verde-água (3.4:1) */
+  --gold-mark: #B8892F;    /* Marcas e ícones sobre branco (3.2:1) */
+  --gold-text: #8A6A22;    /* Texto dourado sobre branco (5.0:1) */
+  --gold-soft: #F8EEDA;    /* Fundo dourado suave */
+
+  /* Neutrals — base */
+  --neutral-0: #FFFFFF;    /* Branco */
+  --neutral-50: #F5F5F7;   /* Cinza gelo */
+  --neutral-200: #E6E7EC;  /* Cinza claro */
+  --neutral-400: #A4A7B1;  /* Cinza suave — desabilitado/decorativo, nunca texto */
+  --neutral-500: #858895;  /* Cinza médio — placeholders, ícones */
+  --neutral-600: #6B6E7B;  /* Cinza texto — ajuste AA do cinza médio (5.1:1 no branco) */
+  --neutral-800: #333746;  /* Grafite */
+  --neutral-900: #11162F;  /* Preto azulado */
+
+  /* Feedback — base */
+  --green-600: #168653;    /* Sucesso */
+  --red-500: #D9364F;      /* Erro */
+  --amber-500: #D99024;    /* Aviso */
+  --amber-800: #8F5B12;    /* Aviso em texto (AA) */
+
+  /* Semantic — brand */
+  --color-brand: var(--teal-brand);
+  --color-primary: var(--teal-action);
+  --color-primary-hover: var(--teal-hover);
+  --color-primary-active: var(--teal-active);
+  --color-primary-soft: var(--teal-soft);
+  --color-primary-subtle: var(--teal-subtle);
+  --color-primary-strong: var(--teal-hover);
+  --color-ink: var(--teal-ink);
+  --color-on-primary: var(--neutral-0);
+  --color-accent: var(--gold-brand);
+  --color-accent-on-primary: var(--gold-light);
+  --color-accent-mark: var(--gold-mark);
+  --color-accent-strong: var(--gold-text);
+  --color-accent-soft: var(--gold-soft);
+
+  /* Semantic — surfaces & text */
+  --color-white: var(--neutral-0);
+  --color-bg: var(--neutral-0);
+  --color-bg-soft: var(--neutral-50);
+  --color-surface: var(--neutral-0);
+  --color-surface-form: var(--teal-subtle);
+  --color-border: var(--neutral-200);
+  --color-border-strong: var(--neutral-400);
+  --color-divider: var(--neutral-200);
+  --color-heading: var(--teal-ink);
+  --color-text: var(--neutral-900);
+  --color-text-body: var(--neutral-800);
+  --color-text-secondary: var(--neutral-600);
+  --color-text-muted: var(--neutral-400);
+  --color-placeholder: var(--neutral-500);
+  --color-icon: var(--teal-ink);
+  --color-overlay: rgb(18 63 58 / 0.6);
+
+  /* Semantic — feedback */
+  --color-success: var(--green-600);
+  --color-success-soft: color-mix(in srgb, var(--green-600) 12%, var(--neutral-0));
+  --color-error: var(--red-500);
+  --color-warning: var(--amber-500);
+  --color-warning-strong: var(--amber-800);
+  --color-focus: var(--teal-focus);
+}

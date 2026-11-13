@@ -1,0 +1,26 @@
+/* Clínica Dental — radius, elevation, motion, focus. */
+:root {
+  --radius-sm: 0.375rem;   /* 6 */
+  --radius-md: 0.625rem;   /* 10 */
+  --radius-lg: 0.875rem;   /* 14 */
+  --radius-xl: 1.125rem;   /* 18 */
+  --radius-pill: 999px;
+  --radius-input: var(--radius-md);
+  --radius-card: var(--radius-lg);
+  --radius-dialog: 1rem;   /* 16 */
+
+  --shadow-card: 0 4px 18px rgba(18, 63, 58, 0.07);
+  --shadow-dropdown: 0 8px 28px rgba(18, 63, 58, 0.12);
+  --shadow-floating: 0 12px 32px rgba(18, 63, 58, 0.14);
+
+  --duration-fast: 160ms;
+  --duration-base: 240ms;
+  --ease-standard: ease;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  --focus-ring-width: 3px;
+  --focus-ring-offset: 3px;
+  --focus-ring: var(--focus-ring-width) solid var(--color-focus);
+  --focus-ring-field: 0 0 0 3px color-mix(in srgb, var(--color-focus) 45%, transparent);
+  --focus-ring-field-error: 0 0 0 3px color-mix(in srgb, var(--color-error) 22%, transparent);
+}

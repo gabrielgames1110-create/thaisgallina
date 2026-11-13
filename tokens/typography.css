@@ -1,0 +1,45 @@
+/* Clínica Dental — type tokens. One family (Poppins), fluid sizes between
+   the mobile and desktop values of the spec's type scale. */
+:root {
+  --font-primary: "Poppins", "Inter", Arial, sans-serif;
+
+  --font-size-xs: 0.75rem;   /* 12 */
+  --font-size-sm: 0.875rem;  /* 14 */
+  --font-size-md: 1rem;      /* 16 */
+  --font-size-lg: 1.25rem;   /* 20 */
+  --font-size-xl: 1.5rem;    /* 24 */
+  --font-size-2xl: 2rem;     /* 32 */
+  --font-size-3xl: 2.5rem;   /* 40 */
+  --font-size-hero: clamp(2.25rem, 5vw, 3.5rem);
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Roles */
+  --text-h1-size: var(--font-size-hero);                            /* 36 → 56 */
+  --text-h1-line: 1.08;
+  --text-h1-tracking: -0.035em;
+  --text-h2-size: clamp(1.8125rem, 1.53rem + 1.46vw, 2.625rem);     /* 29 → 42 */
+  --text-h2-line: 1.15;
+  --text-h2-tracking: -0.025em;
+  --text-h3-size: clamp(1.125rem, 0.98rem + 0.6vw, 1.375rem);       /* 18 → 22 */
+  --text-h3-line: 1.25;
+  --text-h3-tracking: -0.015em;
+  --text-h4-size: clamp(1rem, 0.94rem + 0.25vw, 1.125rem);          /* 16 → 18 */
+  --text-h4-line: 1.3;
+  --text-h4-tracking: -0.01em;
+  --text-body-size: clamp(0.9375rem, 0.91rem + 0.12vw, 1rem);       /* 15 → 16 */
+  --text-body-line: 1.65;
+  --text-aux-size: clamp(0.8125rem, 0.79rem + 0.12vw, 0.875rem);    /* 13 → 14 */
+  --text-aux-line: 1.5;
+  --text-label-size: var(--font-size-sm);                           /* 14 */
+  --text-label-line: 1.3;
+  --text-micro-size: var(--font-size-xs);                           /* 12 */
+  --text-micro-line: 1.4;
+  --text-micro-tracking: 0.01em;
+  --text-eyebrow-size: clamp(0.6875rem, 0.66rem + 0.12vw, 0.75rem); /* 11 → 12 */
+  --text-eyebrow-line: 1.4;
+  --text-eyebrow-tracking: 0.16em;
+}
